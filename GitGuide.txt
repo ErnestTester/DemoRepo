@@ -1,3 +1,6 @@
+Ernesto Alonso Gonzalez Olaez
+Tester Manual and Automation
+
 **This is a new project**
 
 
