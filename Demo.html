@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inspiration for Coding</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            color: #fff;
+            overflow: hidden;
+        }
+        .container {
+            text-align: center;
+            animation: fadeIn 2s ease-in-out;
+        }
+        h1 {
+            font-size: 3em;
+            margin-bottom: 0.5em;
+            animation: slideIn 1.5s ease-out forwards;
+        }
+        p {
+            font-size: 1.2em;
+            margin-bottom: 2em;
+            opacity: 0;
+            animation: fadeIn 3s ease-in-out forwards;
+        }
+        .quote {
+            font-size: 1.5em;
+            font-style: italic;
+            margin-top: 1.5em;
+            animation: fadeInUp 2s ease-in-out forwards;
+        }
+        @keyframes fadeIn {
+            0% { opacity: 0; }
+            100% { opacity: 1; }
+        }
+        @keyframes slideIn {
+            0% { transform: translateY(-50px); opacity: 0; }
+            100% { transform: translateY(0); opacity: 1; }
+        }
+        @keyframes fadeInUp {
+            0% { transform: translateY(50px); opacity: 0; }
+            100% { transform: translateY(0); opacity: 1; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to Your Inspiration</h1>
+        <p>Dream big, work hard, and stay humble.</p>
+        <div class="quote">"The only limit to our realization of tomorrow is our doubts of today." - Franklin D. Roosevelt</div>
+    </div>
+</body>
+</html>
